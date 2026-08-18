@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/raw/
+data/processed/
+
+# Trained models
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Experiment outputs
+experiments/
+results/
+
+# Environment variables
+.env
+
+# Node
+node_modules/
+
+# Build files
+dist/
+build/
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
