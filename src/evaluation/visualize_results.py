@@ -1,4 +1,4 @@
-import os
+﻿import os
 
 import matplotlib.pyplot as plt
 import torch
@@ -16,7 +16,7 @@ from src.data.steganography_dataset import SteganographyDataset
 from src.models.steganography_model import SteganographyModel
 
 
-CHECKPOINT_PATH = "checkpoints/best_model.pth"
+CHECKPOINT_PATH = "checkpoints/final_model_exp4.pth"
 
 OUTPUT_DIR = "results/visualizations"
 

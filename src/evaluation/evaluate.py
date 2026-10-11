@@ -1,4 +1,4 @@
-import math
+﻿import math
 
 import torch
 from torch.utils.data import DataLoader
@@ -17,7 +17,7 @@ from src.models.steganography_model import SteganographyModel
 from src.models.losses import SteganographyLoss
 
 
-CHECKPOINT_PATH = "checkpoints/best_model.pth"
+CHECKPOINT_PATH = "checkpoints/final_model_exp4.pth"
 
 
 def calculate_psnr(mse):
@@ -205,7 +205,7 @@ def main():
     print("TEST SET RESULTS")
     print("======================================")
 
-    print("\nCover → Stego")
+    print("\nCover â†’ Stego")
     print("--------------------------------------")
     print(
         f"MSE  : {average_cover_mse:.6f}"
@@ -217,7 +217,7 @@ def main():
         f"SSIM : {average_cover_ssim:.6f}"
     )
 
-    print("\nSecret → Recovered Secret")
+    print("\nSecret â†’ Recovered Secret")
     print("--------------------------------------")
     print(
         f"MSE  : {average_secret_mse:.6f}"
