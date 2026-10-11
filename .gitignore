@@ -24,7 +24,6 @@ models/*.onnx
 
 # Experiment outputs
 experiments/
-results/
 
 # Environment variables
 .env
